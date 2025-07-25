@@ -52,3 +52,12 @@ Response: [Model Output]
 ## 📘 License
 
 MIT License
+
+---
+
+### 📄 Technical Writing Sample
+
+**[How to Evaluate AI Prompts – PDF](https://github.com/geegorbee/LLM-Prompt-Evaluator/blob/main/How_to_Evaluate_AI_Prompts_Gerald_Brown.pdf)**  
+A short, instructional guide that outlines a rubric-driven framework for evaluating large language model (LLM) outputs. Covers criteria like accuracy, clarity, completeness, and ethical safety. Designed as a demonstration of technical communication and human-in-the-loop evaluation strategies.
+
+---
