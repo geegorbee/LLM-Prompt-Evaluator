@@ -1,63 +1,65 @@
-# 🧠 LLM Output Evaluator – Python Prompt Testing Tool
+# 🧠 LLM Prompt Evaluator
 
-A lightweight Python project designed to simulate real-world LLM (Large Language Model) evaluation workflows. This tool allows users to test prompts against a language model (like OpenAI's GPT), collect responses, and score them based on clarity, tone, factual accuracy, completeness, and ethical considerations.
+A lightweight Python-based tool for simulating human-in-the-loop evaluation of Large Language Model (LLM) outputs. This project enables structured scoring of AI responses using customizable rubrics and exports results to a CSV for further analysis. Ideal for testing prompts, auditing model behavior, or contributing to AI training pipelines.
 
-## 🔍 Features
+---
 
-- Submit a list of prompts to an LLM
-- Collect and store model responses in CSV
-- Manual or scripted evaluation of response quality
-- Simple scoring rubric and comment system
-- Extendable for bias detection or tone classification
+## 🚀 Features
+
+- 🔍 Score LLM outputs using a configurable evaluation rubric
+- ✍️ Rate categories like tone, clarity, completeness, and accuracy
+- ✅ Flags unsafe or low-quality responses
+- 📄 Logs results to CSV for performance tracking
+- 🧩 Designed for extensibility and integration into prompt workflows
+
+---
+
+## 🛠️ How It Works
+
+1. **Load the Python script**
+2. **Enter prompt and model response**
+3. **Assign ratings across four dimensions**
+4. **System logs output to CSV**
+
+Example evaluation rubric:
+
+| Criterion    | Score (1–5) | Description                          |
+|--------------|--------------|--------------------------------------|
+| Clarity      | 5            | Easy to read and grammatically sound |
+| Accuracy     | 4            | Mostly correct with minor issues     |
+| Completeness | 3            | Misses some key details              |
+| Tone         | 5            | Matches intended style/tone          |
+
+---
+
+## 🧪 Use Cases
+
+- Prompt tuning and A/B testing
+- LLM response quality audits
+- AI content review pipelines
+- Human annotation simulation
+
+---
 
 ## 📂 File Structure
+---
 
-- `prompt_tester.py` – Python script to send prompts and log results
-- `sample_results.csv` – Example dataset of responses for scoring
-- `eval_criteria.md` – Markdown file describing evaluation metrics
-- `README.md` – This file
+## 📄 Technical Writing Sample
 
-## 📝 Evaluation Criteria
+**[How to Evaluate AI Prompts – PDF](https://github.com/geegorbee/LLM-Prompt-Evaluator/blob/main/How_to_Evaluate_AI_Prompts_Gerald_Brown.pdf)**  
+A concise guide explaining how to assess AI-generated responses using rubrics and structured evaluation. Demonstrates documentation and communication skills for technical writing roles.
 
-| Category           | Scale / Notes                          |
-|--------------------|-----------------------------------------|
-| Factual Accuracy   | 0–5 scale (5 = fully accurate)          |
-| Relevance          | 0–5 scale (5 = completely on topic)     |
-| Tone Appropriateness | Friendly / Neutral / Formal           |
-| Completeness       | Partial / Adequate / Thorough           |
-| Ethical Safety     | Pass / Flag                             |
+---
 
-## 🧪 Sample Use
+## 👨‍💻 Author
 
-```bash
-$ python prompt_tester.py
-Prompt: Explain the blockchain in 100 words or less.
-Response: [Model Output]
-```
+**Gerald Brown**  
+- Email: gerald.brown@alumni.utoronto.ca  
+- LinkedIn: [linkedin.com/in/gerald-brown-63168223a](https://www.linkedin.com/in/gerald-brown-63168223a)  
+- GitHub: [github.com/geegorbee](https://github.com/geegorbee)
 
-## 🧠 Example Prompts
-
-1. Explain reinforcement learning to a 12-year-old.
-2. Describe the symptoms and treatment of generalized anxiety disorder.
-3. Write a formal apology email to a customer whose order was delayed.
-4. List three benefits and three drawbacks of using AI in public health.
-5. Create a motivational quote about learning.
-
-## 🛠️ Future Enhancements
-
-- GUI using Tkinter or Gradio
-- Auto-score system with red-flag keyword detection
-- Compare responses from multiple LLMs
+---
 
 ## 📘 License
 
-MIT License
-
----
-
-### 📄 Technical Writing Sample
-
-**[How to Evaluate AI Prompts – PDF](https://github.com/geegorbee/LLM-Prompt-Evaluator/blob/main/How_to_Evaluate_AI_Prompts_Gerald_Brown.pdf)**  
-A short, instructional guide that outlines a rubric-driven framework for evaluating large language model (LLM) outputs. Covers criteria like accuracy, clarity, completeness, and ethical safety. Designed as a demonstration of technical communication and human-in-the-loop evaluation strategies.
-
----
+MIT License – free to use, modify, and build upon.
